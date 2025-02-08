@@ -21,6 +21,15 @@
     .lg-w-auto {
         width: auto;
     }
+
+    /* padding */
+    .lg-pl-0 {
+        padding-left: 0px;
+    }
+
+    .lg-max-w-300 {
+        max-width: 300px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -65,5 +74,9 @@
     /* padding */
     .sm-p-8 {
         padding: 8px;
+    }
+
+    .sm-w-250 {
+        width: 250px;
     }
 }

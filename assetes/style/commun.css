@@ -1,9 +1,24 @@
 :root {
+    --fs-14: 14px;
     --fs-18: 18px;
+    --fs-24: 24px;
+    --fs-53: 53px;
+}
+
+.fs-14 {
+    font-size: var(--fs-14);
 }
 
 .fs-18 {
     font-size: var(--fs-18);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
+.fs-53 {
+    font-size: var(--fs-53);
 }
 
 
