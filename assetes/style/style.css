@@ -24,6 +24,14 @@ body {
     background: rgba(255, 255, 255, 0.10);
 }
 
+.bg-white-F8F8F8 {
+    background: #F8F8F8;
+}
+
+.bg-white {
+    background: #fff;
+}
+
 /* bg-img */
 .bg-hero-img {
     background-image: url("/assetes/img/png/hero-bg-img.png");
@@ -141,6 +149,14 @@ body {
     padding: 85px 0px 0px 30px;
 }
 
+.p-24-18-21-8 {
+    padding: 23.5px 18.5px 21.5px 8.5px;
+}
+
+.p-20-0 {
+    padding: 20px 0;
+}
+
 /* margin */
 .mt-32 {
     margin-top: 32px;
@@ -152,6 +168,10 @@ body {
 
 .mt-40 {
     margin-top: 40px;
+}
+
+.mt-50 {
+    margin-top: 50px;
 }
 
 .mt-170 {
@@ -171,9 +191,17 @@ body {
     line-height: 140%;
 }
 
+.line-h-150 {
+    line-height: 150%;
+}
+
 /* gap */
 .g-20 {
     gap: 20px;
+}
+
+.g-22 {
+    gap: 22px;
 }
 
 /* letter spacing */

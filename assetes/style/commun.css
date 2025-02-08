@@ -2,7 +2,9 @@
     --fs-14: 14px;
     --fs-18: 18px;
     --fs-24: 24px;
+    --fs-30: 30px;
     --fs-53: 53px;
+    --fs-70: 70px;
 }
 
 .fs-14 {
@@ -17,16 +19,39 @@
     font-size: var(--fs-24);
 }
 
+.fs-30 {
+    font-size: var(--fs-30);
+}
+
 .fs-53 {
     font-size: var(--fs-53);
 }
 
+.fs-70 {
+    font-size: var(--fs-70);
+}
 
-@media (max-width:1600px) {}
 
-@media (max-width:1200px) {}
+@media (max-width:1600px) {
+    :root {
+        --fs-70: 60px;
+    }
+}
 
-@media (max-width:992px) {}
+@media (max-width:1200px) {
+    :root {
+        --fs-30: 25px;
+        --fs-70: 50px;
+    }
+}
+
+@media (max-width:992px) {
+    :root {
+        --fs-18: 16px;
+        --fs-30: 21px;
+        --fs-70: 45px;
+    }
+}
 
 @media (max-width: 768px) {
     :root {
