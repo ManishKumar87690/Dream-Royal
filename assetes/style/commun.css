@@ -1,0 +1,26 @@
+:root {
+    --fs-18: 18px;
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+
+@media (max-width:1600px) {}
+
+@media (max-width:1200px) {}
+
+@media (max-width:992px) {}
+
+@media (max-width: 768px) {
+    :root {
+        --fs-18: 15px;
+    }
+}
+
+@media (max-width:550px) {
+    :root {
+        --fs-18: 12px;
+    }
+}

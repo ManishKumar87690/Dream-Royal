@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Rubik";
+    background: #F5EEE8;
+}
+
+.offcanvas {
+    background: #F5EEE8;
+}
+
+.self-contianer {
+    max-width: 1780px;
+    padding: 0px 60px;
+    margin: 0px auto;
+}
+
+/* /bg color */
+.bg-yellow {
+    background: #FFD700;
+}
+
+.text-black-2E3A59 {
+    color: #2E3A59;
+}
+
+/* /max-width */
+.max-w-146 {
+    max-width: 146px;
+}
+
+/* width */
+.w-142 {
+    width: 142px;
+}
+
+/* border */
+.border-transparent {
+    border: 1px solid transparent;
+}
+
+.border-1white {
+    border: 1px solid #FFF;
+}
+
+.border-1yellow {
+    border: 1px solid #FFD700;
+}
+
+.border-radius-16 {
+    border-radius: 16px;
+}
+
+
+/* padding */
+.p-23-16-16-16 {
+    padding: 8px 16px 8px 16px;
+}
+
+.p-15-26 {
+    padding: 15px 26px;
+}
+
+/* margin */
+.mt-37 {
+    margin-top: 37px;
+}
+
+.mr--200 {
+    margin-right: -200px;
+}
+
+/* line-height */
+.line-h-140 {
+    line-height: 140%;
+}
+
+/* gap */
+.g-20 {
+    gap: 20px;
+}
+
+/* hover */
+.transition {
+    transition: all 1s;
+}
+
+.bg-transparent-hvr:hover {
+    background: transparent !important;
+    border-color: #FFD700;
+}
