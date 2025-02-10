@@ -2,11 +2,27 @@
     .self-contianer {
         padding: 0px 30px;
     }
+
+    .xxl-g-50 {
+        gap: 50px;
+    }
 }
 
 @media (max-width:1200px) {
     .self-contianer {
         padding: 0px 25px;
+    }
+
+    .xl-w-100 {
+        width: 100%;
+    }
+
+    .xl-w-50 {
+        width: 50%;
+    }
+
+    .xl-max-w-310 {
+        max-width: 310px !important;
     }
 }
 
@@ -30,6 +46,37 @@
     .lg-max-w-300 {
         max-width: 300px;
     }
+
+    /* gap */
+    .lg-g-30 {
+        gap: 30px;
+    }
+
+    /* margin */
+    .lg-mt-32 {
+        margin-top: 32px;
+    }
+
+    .trnmt h3 {
+        font-size: 20px !important;
+    }
+
+    /* font sise */
+    .best-new-casino h3 {
+        font-size: 22px !important;
+    }
+
+    .best-new-casino p {
+        font-size: 16 !important;
+    }
+
+    .lg-w-100 {
+        width: 100%;
+    }
+
+    .bash {
+        font-size: 18px !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -42,9 +89,25 @@
         padding: 9px 16px;
     }
 
+    .md-p-5-16 {
+        padding: 5px 16px !important;
+    }
+
+    .md-p-tb-24 {
+        padding: 24px 0px 24px 0px;
+    }
+
     /* margin*/
     .md-mt-16 {
         margin-top: 16px;
+    }
+
+    .md-mt-36 {
+        margin-top: 36px;
+    }
+
+    .md-mt-60 {
+        margin-top: 60px;
     }
 
     /* width */
@@ -57,15 +120,89 @@
         max-width: 76px;
     }
 
+    .md-max-w-170 {
+        max-width: 170px;
+    }
+
+    .md-max-w-60 {
+        max-width: 60px;
+    }
+
     /* border */
     .md-border-radius-8 {
         border-radius: 8px;
     }
+
+    .md-p-24-0-30-0 {
+        padding: 24px 0px 30px 0px;
+    }
+
+    .md-bg-white-F8F8F8 {
+        background-color: #F8F8F8;
+    }
+
+    /* gap */
+    .md-g-8 {
+        gap: 8px;
+    }
+
+    .md-g-14 {
+        gap: 14px;
+    }
+
+    .md-p-tb-24 {
+        padding: 24px 0px 24px 0px;
+    }
+
+    /* height */
+    .md-h-210 {
+        height: 210px;
+    }
+
+    .about-us p {
+        font-size: 14px;
+    }
+
+    .bash {
+        font-size: 12px !important;
+    }
+
 }
 
 @media (max-width:650px) {
     .self-contianer {
         padding: 0px 16px;
+    }
+
+    /* padding */
+    .sm-p-6 {
+        padding: 6px !important;
+    }
+
+    .sm-p-9-12 {
+        padding: 8px 12px;
+    }
+
+    /* font sise */
+    .top-game p {
+        font-size: 14px;
+    }
+
+    /* gap */
+    .sm-g-24 {
+        gap: 24px;
+    }
+
+    .trnmt span {
+        font-size: 14px !important;
+    }
+
+    .sm-h-191 {
+        height: auto;
+    }
+
+    .sm-w-24 {
+        width: 24px;
     }
 }
 
