@@ -116,7 +116,7 @@ var swiper = new Swiper(".mySwiper4", {
                 320: {
                     slidesPerView: 1,
                 },
-                500: {
+                550: {
                     slidesPerView: 2,
                 },
             }
@@ -124,11 +124,44 @@ var swiper = new Swiper(".mySwiper4", {
 
 // jeckpo
 // swiper-5
+var swiper = new Swiper(".mySwiper5", {
+            slidesPerView: 5,
+            spaceBetween: 16,
+            loop:true,
+            navigation: {
+                nextEl: ".swiper-button-next-tj",
+                prevEl: ".swiper-button-prev-tj",
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                },
+                400: {
+                    slidesPerView: 2,
+                },
+                1000: {
+                    slidesPerView: 3,
+                },
+                1300: {
+                    slidesPerView: 4,
+                },
+                1500: {
+                    slidesPerView: 5,
+                },
+                1800: {
+                    slidesPerView: 6,
+                },
+            },
+});
 
 // top winner
 var swiper = new Swiper(".mySwiper6", {
             slidesPerView: 4,
             spaceBetween: 16,
+            grid:{
+                rows:2,
+                fill:"row",
+            },
             loop:true,
             navigation: {
                 nextEl: ".swiper-button-next-tw",
@@ -150,18 +183,19 @@ var swiper = new Swiper(".mySwiper6", {
                 1500: {
                     slidesPerView: 4,
                 },
-                1800: {
-                    slidesPerView: 5,
-                },
             },
 });
 
-// recent- big wind
+// recent- big win
 var swiper = new Swiper(".mySwiper7", {
             slidesPerView: 4,
             spaceBetween: 16,
             loop:true,
-            // autoplay:true,
+            autoplay:true,
+             grid:{
+                rows:2,
+                fill:"row",
+            },
             navigation: {
                 nextEl: ".swiper-button-next-rbw",
                 prevEl: ".swiper-button-prev-rbw",
@@ -181,9 +215,6 @@ var swiper = new Swiper(".mySwiper7", {
                 },
                 1500: {
                     slidesPerView: 4,
-                },
-                1800: {
-                    slidesPerView: 5,
                 },
             },
 });

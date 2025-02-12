@@ -40,6 +40,10 @@ body {
     background: #F5EEE8;
 }
 
+.bg-purpol {
+    background: #4E098A;
+}
+
 /* bg-img */
 .bg-hero-img {
     background-image: url("/assetes/img/png/hero-bg-img.png");
@@ -71,6 +75,13 @@ body {
 
 .cashback-bg-img {
     background: url("/assetes/img/png/cash-baack-bg-img.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jeckpot-bg-img {
+    background: url("/assetes/img/png/jeckpot-bg-img.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -125,6 +136,10 @@ body {
     color: #ADADAD;
 }
 
+.text-yellow {
+    color: #FFD700;
+}
+
 /* /max-width */
 .max-w-content {
     max-width: max-content;
@@ -148,6 +163,10 @@ body {
 
 .max-w-248 {
     max-width: 248px;
+}
+
+.max-w-294 {
+    max-width: 294px;
 }
 
 .max-w-300 {
@@ -176,6 +195,10 @@ body {
 
 .max-w-590 {
     max-width: 590px;
+}
+
+.max-w-650 {
+    max-width: 650px;
 }
 
 .max-w-689 {
@@ -208,6 +231,10 @@ body {
     height: 265px;
 }
 
+.h-290 {
+    height: 290px;
+}
+
 /* border */
 .border-transparent {
     border: 1px solid transparent;
@@ -223,6 +250,10 @@ body {
 
 .border-1broun {
     border: 1px solid #C8BBC6;
+}
+
+.border-radius-7 {
+    border-radius: 7px;
 }
 
 .border-radius-10 {
@@ -252,7 +283,6 @@ body {
 .border-right-1 {
     border-right: 1.5px solid black;
 }
-
 
 /* padding */
 .p-14 {
@@ -317,6 +347,18 @@ body {
 
 .p-tb-32-29 {
     padding: 32px 0px 39px 0px;
+}
+
+.p-56 {
+    padding: 56px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.pt-37 {
+    padding-top: 37px;
 }
 
 /* margin */
@@ -390,6 +432,10 @@ body {
     gap: 22px;
 }
 
+.g-32 {
+    gap: 32px;
+}
+
 .g-40 {
     gap: 40px;
 }
@@ -406,6 +452,14 @@ body {
 /* position */
 .bottom-48 {
     bottom: 48px;
+}
+
+.left--45 {
+    left: -45px;
+}
+
+.right--45 {
+    right: -45px;
 }
 
 /* hover */
@@ -430,6 +484,10 @@ body {
 
 .text-underline-hvr:hover {
     text-decoration: underline !important;
+}
+
+.bg-yellow-hvr:hover {
+    background-color: #FFD700;
 }
 
 /* pagination */
@@ -462,4 +520,19 @@ body {
     opacity: 100%;
     width: 12px;
     height: 12px;
+}
+
+/* tab */
+.nav-item>.active,
+.active>p {
+    background-color: #FFD700 !important;
+    color: #2E3A59 !important;
+}
+
+.active svg path {
+    fill: #2E3A59;
+}
+
+.border-none {
+    border: none;
 }

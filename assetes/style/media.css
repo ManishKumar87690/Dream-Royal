@@ -8,6 +8,18 @@
     }
 }
 
+@media (max-width:1500px) {
+    .xl-fs-24 {
+        font-size: 24px !important;
+    }
+}
+
+@media (max-width:1400px) {
+    .xl-fs-24 {
+        font-size: 20px !important;
+    }
+}
+
 @media (max-width:1200px) {
     .self-contianer {
         padding: 0px 25px;
@@ -74,8 +86,23 @@
         width: 100%;
     }
 
+    .lg-h-230 {
+        height: 230px;
+    }
+
+    .lg-h-212 {
+        height: 212px;
+    }
+
     .bash {
         font-size: 18px !important;
+    }
+
+    .lg-jeckpot-bg-img {
+        background: url("/assetes/img/png/jeckpot-bg-img.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
 
@@ -85,6 +112,10 @@
     }
 
     /* padding */
+    .md-p-0 {
+        padding: 0;
+    }
+
     .ms-p-9-16 {
         padding: 9px 16px;
     }
@@ -99,7 +130,11 @@
 
     /* margin*/
     .md-mt-16 {
-        margin-top: 16px;
+        margin-top: 16px !important;
+    }
+
+    .md-mt-25 {
+        margin-top: 25px !important;
     }
 
     .md-mt-36 {
@@ -141,6 +176,10 @@
         background-color: #F8F8F8;
     }
 
+    .md-pb-10 {
+        padding-bottom: 10px;
+    }
+
     /* gap */
     .md-g-8 {
         gap: 8px;
@@ -165,6 +204,10 @@
 
     .bash {
         font-size: 12px !important;
+    }
+
+    .md-fs-16 {
+        font-size: 16px !important;
     }
 
 }
@@ -201,6 +244,10 @@
         height: auto;
     }
 
+    .sm-h-210 {
+        height: 210px;
+    }
+
     .sm-w-24 {
         width: 24px;
     }
@@ -215,5 +262,9 @@
 
     .sm-w-250 {
         width: 250px;
+    }
+
+    .sm-h-210 {
+        height: auto;
     }
 }
